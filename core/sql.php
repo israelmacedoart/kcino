@@ -1,10 +1,10 @@
 <?php
 	if ($_SERVER['HTTP_HOST'] == 'localhost') {
 		// Database for my localhost
-		define("DB_HOST", "localhost"); 	// MySQL Database Host
-		define("DB_USER", "root");			// MySQL Username
-		define("DB_PASS", "");  			// MySQL Password
-		define("DB_NAME", "");  	// Database Name
+		define("DB_HOST", "186.202.152.192"); 	// MySQL Database Host
+		define("DB_USER", "kasino@186.202.28.227");			// MySQL Username
+		define("DB_PASS", "Mondo123@");  			// MySQL Password
+		define("DB_NAME", "Casino");  	// Database Name
 	} else {
 		// Database for public
 		define("DB_HOST", "localhost"); 	// MySQL Database Host
